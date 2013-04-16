@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC9946A916E0BE7100924C4F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC99468916E0BDBE00924C4F /* Foundation.framework */; };
+		EC9946B516E0BECA00924C4F /* CommonHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = EC9946AD16E0BE7100924C4F /* CommonHelpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC9946DC16E0BF1000924C4F /* NSDictionary+ST.h in Headers */ = {isa = PBXBuildFile; fileRef = EC9946B716E0BF1000924C4F /* NSDictionary+ST.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC9946DD16E0BF1000924C4F /* NSDictionary+ST.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9946B816E0BF1000924C4F /* NSDictionary+ST.m */; };
+		EC9946DE16E0BF1000924C4F /* NSObject+Utility.h in Headers */ = {isa = PBXBuildFile; fileRef = EC9946B916E0BF1000924C4F /* NSObject+Utility.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC9946DF16E0BF1000924C4F /* NSObject+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9946BA16E0BF1000924C4F /* NSObject+Utility.m */; };
+		EC9946E016E0BF1000924C4F /* NSString+Extends.h in Headers */ = {isa = PBXBuildFile; fileRef = EC9946BB16E0BF1000924C4F /* NSString+Extends.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC9946E116E0BF1000924C4F /* NSString+Extends.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9946BC16E0BF1000924C4F /* NSString+Extends.m */; };
+		EC9946E216E0BF1000924C4F /* NSURL+Extend.h in Headers */ = {isa = PBXBuildFile; fileRef = EC9946BD16E0BF1000924C4F /* NSURL+Extend.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC9946E316E0BF1000924C4F /* NSURL+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9946BE16E0BF1000924C4F /* NSURL+Extend.m */; };
+		EC9946E416E0BF1000924C4F /* UIColor+Extends.h in Headers */ = {isa = PBXBuildFile; fileRef = EC9946BF16E0BF1000924C4F /* UIColor+Extends.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC9946E516E0BF1000924C4F /* UIColor+Extends.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9946C016E0BF1000924C4F /* UIColor+Extends.m */; };
+		EC9946E616E0BF1000924C4F /* UIImage+Tools.h in Headers */ = {isa = PBXBuildFile; fileRef = EC9946C116E0BF1000924C4F /* UIImage+Tools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC9946E716E0BF1000924C4F /* UIImage+Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9946C216E0BF1000924C4F /* UIImage+Tools.m */; };
+		EC9946E816E0BF1000924C4F /* UIViewControllerExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = EC9946C316E0BF1000924C4F /* UIViewControllerExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC9946E916E0BF1000924C4F /* UIViewControllerExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9946C416E0BF1000924C4F /* UIViewControllerExtensions.m */; };
+		EC9946EA16E0BF1000924C4F /* UIViewExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = EC9946C516E0BF1000924C4F /* UIViewExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC9946EB16E0BF1000924C4F /* UIViewExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9946C616E0BF1000924C4F /* UIViewExtensions.m */; };
+		EC9946EC16E0BF1000924C4F /* Defaults.h in Headers */ = {isa = PBXBuildFile; fileRef = EC9946C816E0BF1000924C4F /* Defaults.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC9946ED16E0BF1000924C4F /* Headers.h in Headers */ = {isa = PBXBuildFile; fileRef = EC9946C916E0BF1000924C4F /* Headers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC9946EE16E0BF1000924C4F /* AppUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = EC9946CB16E0BF1000924C4F /* AppUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC9946EF16E0BF1000924C4F /* AppUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9946CC16E0BF1000924C4F /* AppUtility.m */; };
+		EC9946F016E0BF1000924C4F /* BCAppShared.h in Headers */ = {isa = PBXBuildFile; fileRef = EC9946CD16E0BF1000924C4F /* BCAppShared.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC9946F116E0BF1000924C4F /* BCAppShared.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9946CE16E0BF1000924C4F /* BCAppShared.m */; };
+		EC9946F216E0BF1000924C4F /* RMValidtor.h in Headers */ = {isa = PBXBuildFile; fileRef = EC9946CF16E0BF1000924C4F /* RMValidtor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC9946F316E0BF1000924C4F /* RMValidtor.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9946D016E0BF1000924C4F /* RMValidtor.m */; };
+		EC9946F416E0BF1000924C4F /* BSKeyboardControls.h in Headers */ = {isa = PBXBuildFile; fileRef = EC9946D216E0BF1000924C4F /* BSKeyboardControls.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC9946F516E0BF1000924C4F /* BSKeyboardControls.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9946D316E0BF1000924C4F /* BSKeyboardControls.m */; };
+		EC9946F616E0BF1000924C4F /* CustomBounceView.h in Headers */ = {isa = PBXBuildFile; fileRef = EC9946D616E0BF1000924C4F /* CustomBounceView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC9946F716E0BF1000924C4F /* CustomBounceView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9946D716E0BF1000924C4F /* CustomBounceView.m */; };
+		EC9946FC16E0C03500924C4F /* CustomAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = EC9946FA16E0C03500924C4F /* CustomAlertView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC9946FD16E0C03500924C4F /* CustomAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9946FB16E0C03500924C4F /* CustomAlertView.m */; };
+		EC99470116E0C06200924C4F /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = EC9946FF16E0C06200924C4F /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC99470216E0C06200924C4F /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = EC99470016E0C06200924C4F /* MBProgressHUD.m */; };
+		EC99470D16E0C6E800924C4F /* CMReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = EC99470916E0C6E800924C4F /* CMReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC99470E16E0C6E800924C4F /* CMReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = EC99470A16E0C6E800924C4F /* CMReachability.m */; };
+		EC99470F16E0C6E800924C4F /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = EC99470B16E0C6E800924C4F /* Reachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC99471016E0C6E800924C4F /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = EC99470C16E0C6E800924C4F /* Reachability.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EC9946A616E0BE7100924C4F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EC99468716E0BDBE00924C4F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EC99468916E0BDBE00924C4F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EC99468B16E0BDBE00924C4F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EC99468F16E0BDBE00924C4F /* CommonHelpers-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CommonHelpers-Info.plist"; sourceTree = "<group>"; };
+		EC99469116E0BDBE00924C4F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EC99469316E0BDBE00924C4F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC99469516E0BDBE00924C4F /* CommonHelpers-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CommonHelpers-Prefix.pch"; sourceTree = "<group>"; };
+		EC99469916E0BDBE00924C4F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		EC99469B16E0BDBE00924C4F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		EC99469D16E0BDBE00924C4F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		EC9946A816E0BE7100924C4F /* libCommonHelpers.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCommonHelpers.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC9946AC16E0BE7100924C4F /* CommonHelpers-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CommonHelpers-Prefix.pch"; sourceTree = "<group>"; };
+		EC9946AD16E0BE7100924C4F /* CommonHelpers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonHelpers.h; sourceTree = "<group>"; };
+		EC9946B716E0BF1000924C4F /* NSDictionary+ST.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+ST.h"; sourceTree = "<group>"; };
+		EC9946B816E0BF1000924C4F /* NSDictionary+ST.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+ST.m"; sourceTree = "<group>"; };
+		EC9946B916E0BF1000924C4F /* NSObject+Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Utility.h"; sourceTree = "<group>"; };
+		EC9946BA16E0BF1000924C4F /* NSObject+Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Utility.m"; sourceTree = "<group>"; };
+		EC9946BB16E0BF1000924C4F /* NSString+Extends.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extends.h"; sourceTree = "<group>"; };
+		EC9946BC16E0BF1000924C4F /* NSString+Extends.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extends.m"; sourceTree = "<group>"; };
+		EC9946BD16E0BF1000924C4F /* NSURL+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+Extend.h"; sourceTree = "<group>"; };
+		EC9946BE16E0BF1000924C4F /* NSURL+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+Extend.m"; sourceTree = "<group>"; };
+		EC9946BF16E0BF1000924C4F /* UIColor+Extends.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extends.h"; sourceTree = "<group>"; };
+		EC9946C016E0BF1000924C4F /* UIColor+Extends.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extends.m"; sourceTree = "<group>"; };
+		EC9946C116E0BF1000924C4F /* UIImage+Tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Tools.h"; sourceTree = "<group>"; };
+		EC9946C216E0BF1000924C4F /* UIImage+Tools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Tools.m"; sourceTree = "<group>"; };
+		EC9946C316E0BF1000924C4F /* UIViewControllerExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewControllerExtensions.h; sourceTree = "<group>"; };
+		EC9946C416E0BF1000924C4F /* UIViewControllerExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewControllerExtensions.m; sourceTree = "<group>"; };
+		EC9946C516E0BF1000924C4F /* UIViewExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewExtensions.h; sourceTree = "<group>"; };
+		EC9946C616E0BF1000924C4F /* UIViewExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewExtensions.m; sourceTree = "<group>"; };
+		EC9946C816E0BF1000924C4F /* Defaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Defaults.h; sourceTree = "<group>"; };
+		EC9946C916E0BF1000924C4F /* Headers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Headers.h; sourceTree = "<group>"; };
+		EC9946CB16E0BF1000924C4F /* AppUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppUtility.h; sourceTree = "<group>"; };
+		EC9946CC16E0BF1000924C4F /* AppUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppUtility.m; sourceTree = "<group>"; };
+		EC9946CD16E0BF1000924C4F /* BCAppShared.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCAppShared.h; sourceTree = "<group>"; };
+		EC9946CE16E0BF1000924C4F /* BCAppShared.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCAppShared.m; sourceTree = "<group>"; };
+		EC9946CF16E0BF1000924C4F /* RMValidtor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMValidtor.h; sourceTree = "<group>"; };
+		EC9946D016E0BF1000924C4F /* RMValidtor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMValidtor.m; sourceTree = "<group>"; };
+		EC9946D216E0BF1000924C4F /* BSKeyboardControls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSKeyboardControls.h; sourceTree = "<group>"; };
+		EC9946D316E0BF1000924C4F /* BSKeyboardControls.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSKeyboardControls.m; sourceTree = "<group>"; };
+		EC9946D616E0BF1000924C4F /* CustomBounceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomBounceView.h; sourceTree = "<group>"; };
+		EC9946D716E0BF1000924C4F /* CustomBounceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomBounceView.m; sourceTree = "<group>"; };
+		EC9946FA16E0C03500924C4F /* CustomAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAlertView.h; sourceTree = "<group>"; };
+		EC9946FB16E0C03500924C4F /* CustomAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomAlertView.m; sourceTree = "<group>"; };
+		EC9946FF16E0C06200924C4F /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		EC99470016E0C06200924C4F /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		EC99470916E0C6E800924C4F /* CMReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMReachability.h; sourceTree = "<group>"; };
+		EC99470A16E0C6E800924C4F /* CMReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMReachability.m; sourceTree = "<group>"; };
+		EC99470B16E0C6E800924C4F /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		EC99470C16E0C6E800924C4F /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC9946A516E0BE7100924C4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC9946A916E0BE7100924C4F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC99467B16E0BDBE00924C4F = {
+			isa = PBXGroup;
+			children = (
+				EC99468D16E0BDBE00924C4F /* CommonHelpers */,
+				EC9946AA16E0BE7100924C4F /* CommonHelpers */,
+				EC99468616E0BDBE00924C4F /* Frameworks */,
+				EC99468516E0BDBE00924C4F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC99468516E0BDBE00924C4F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC9946A816E0BE7100924C4F /* libCommonHelpers.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC99468616E0BDBE00924C4F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC99468716E0BDBE00924C4F /* UIKit.framework */,
+				EC99468916E0BDBE00924C4F /* Foundation.framework */,
+				EC99468B16E0BDBE00924C4F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC99468D16E0BDBE00924C4F /* CommonHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				EC99470816E0C6E700924C4F /* Reachability */,
+				EC9946FE16E0C06100924C4F /* HUD */,
+				EC9946B616E0BF1000924C4F /* Categories */,
+				EC9946C716E0BF1000924C4F /* Defaults */,
+				EC9946CA16E0BF1000924C4F /* HelperClasses */,
+				EC9946D116E0BF1000924C4F /* Keyboard */,
+				EC9946D416E0BF1000924C4F /* Views */,
+				EC99468E16E0BDBE00924C4F /* Supporting Files */,
+			);
+			path = CommonHelpers;
+			sourceTree = "<group>";
+		};
+		EC99468E16E0BDBE00924C4F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC99468F16E0BDBE00924C4F /* CommonHelpers-Info.plist */,
+				EC99469016E0BDBE00924C4F /* InfoPlist.strings */,
+				EC99469316E0BDBE00924C4F /* main.m */,
+				EC99469516E0BDBE00924C4F /* CommonHelpers-Prefix.pch */,
+				EC99469916E0BDBE00924C4F /* Default.png */,
+				EC99469B16E0BDBE00924C4F /* Default@2x.png */,
+				EC99469D16E0BDBE00924C4F /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC9946AA16E0BE7100924C4F /* CommonHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				EC9946AD16E0BE7100924C4F /* CommonHelpers.h */,
+				EC9946AB16E0BE7100924C4F /* Supporting Files */,
+			);
+			path = CommonHelpers;
+			sourceTree = "<group>";
+		};
+		EC9946AB16E0BE7100924C4F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC9946AC16E0BE7100924C4F /* CommonHelpers-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC9946B616E0BF1000924C4F /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				EC9946B716E0BF1000924C4F /* NSDictionary+ST.h */,
+				EC9946B816E0BF1000924C4F /* NSDictionary+ST.m */,
+				EC9946B916E0BF1000924C4F /* NSObject+Utility.h */,
+				EC9946BA16E0BF1000924C4F /* NSObject+Utility.m */,
+				EC9946BB16E0BF1000924C4F /* NSString+Extends.h */,
+				EC9946BC16E0BF1000924C4F /* NSString+Extends.m */,
+				EC9946BD16E0BF1000924C4F /* NSURL+Extend.h */,
+				EC9946BE16E0BF1000924C4F /* NSURL+Extend.m */,
+				EC9946BF16E0BF1000924C4F /* UIColor+Extends.h */,
+				EC9946C016E0BF1000924C4F /* UIColor+Extends.m */,
+				EC9946C116E0BF1000924C4F /* UIImage+Tools.h */,
+				EC9946C216E0BF1000924C4F /* UIImage+Tools.m */,
+				EC9946C316E0BF1000924C4F /* UIViewControllerExtensions.h */,
+				EC9946C416E0BF1000924C4F /* UIViewControllerExtensions.m */,
+				EC9946C516E0BF1000924C4F /* UIViewExtensions.h */,
+				EC9946C616E0BF1000924C4F /* UIViewExtensions.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		EC9946C716E0BF1000924C4F /* Defaults */ = {
+			isa = PBXGroup;
+			children = (
+				EC9946C816E0BF1000924C4F /* Defaults.h */,
+				EC9946C916E0BF1000924C4F /* Headers.h */,
+			);
+			path = Defaults;
+			sourceTree = "<group>";
+		};
+		EC9946CA16E0BF1000924C4F /* HelperClasses */ = {
+			isa = PBXGroup;
+			children = (
+				EC9946FA16E0C03500924C4F /* CustomAlertView.h */,
+				EC9946FB16E0C03500924C4F /* CustomAlertView.m */,
+				EC9946CB16E0BF1000924C4F /* AppUtility.h */,
+				EC9946CC16E0BF1000924C4F /* AppUtility.m */,
+				EC9946CD16E0BF1000924C4F /* BCAppShared.h */,
+				EC9946CE16E0BF1000924C4F /* BCAppShared.m */,
+				EC9946CF16E0BF1000924C4F /* RMValidtor.h */,
+				EC9946D016E0BF1000924C4F /* RMValidtor.m */,
+			);
+			path = HelperClasses;
+			sourceTree = "<group>";
+		};
+		EC9946D116E0BF1000924C4F /* Keyboard */ = {
+			isa = PBXGroup;
+			children = (
+				EC9946D216E0BF1000924C4F /* BSKeyboardControls.h */,
+				EC9946D316E0BF1000924C4F /* BSKeyboardControls.m */,
+			);
+			path = Keyboard;
+			sourceTree = "<group>";
+		};
+		EC9946D416E0BF1000924C4F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EC9946D516E0BF1000924C4F /* BounceView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EC9946D516E0BF1000924C4F /* BounceView */ = {
+			isa = PBXGroup;
+			children = (
+				EC9946D616E0BF1000924C4F /* CustomBounceView.h */,
+				EC9946D716E0BF1000924C4F /* CustomBounceView.m */,
+			);
+			path = BounceView;
+			sourceTree = "<group>";
+		};
+		EC9946FE16E0C06100924C4F /* HUD */ = {
+			isa = PBXGroup;
+			children = (
+				EC9946FF16E0C06200924C4F /* MBProgressHUD.h */,
+				EC99470016E0C06200924C4F /* MBProgressHUD.m */,
+			);
+			path = HUD;
+			sourceTree = "<group>";
+		};
+		EC99470816E0C6E700924C4F /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				EC99470916E0C6E800924C4F /* CMReachability.h */,
+				EC99470A16E0C6E800924C4F /* CMReachability.m */,
+				EC99470B16E0C6E800924C4F /* Reachability.h */,
+				EC99470C16E0C6E800924C4F /* Reachability.m */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		EC9946B416E0BEC000924C4F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC9946B516E0BECA00924C4F /* CommonHelpers.h in Headers */,
+				EC9946DC16E0BF1000924C4F /* NSDictionary+ST.h in Headers */,
+				EC9946DE16E0BF1000924C4F /* NSObject+Utility.h in Headers */,
+				EC9946E016E0BF1000924C4F /* NSString+Extends.h in Headers */,
+				EC9946E216E0BF1000924C4F /* NSURL+Extend.h in Headers */,
+				EC9946E416E0BF1000924C4F /* UIColor+Extends.h in Headers */,
+				EC9946E616E0BF1000924C4F /* UIImage+Tools.h in Headers */,
+				EC9946E816E0BF1000924C4F /* UIViewControllerExtensions.h in Headers */,
+				EC9946EA16E0BF1000924C4F /* UIViewExtensions.h in Headers */,
+				EC9946EC16E0BF1000924C4F /* Defaults.h in Headers */,
+				EC9946ED16E0BF1000924C4F /* Headers.h in Headers */,
+				EC9946EE16E0BF1000924C4F /* AppUtility.h in Headers */,
+				EC9946F016E0BF1000924C4F /* BCAppShared.h in Headers */,
+				EC9946F216E0BF1000924C4F /* RMValidtor.h in Headers */,
+				EC9946F416E0BF1000924C4F /* BSKeyboardControls.h in Headers */,
+				EC9946F616E0BF1000924C4F /* CustomBounceView.h in Headers */,
+				EC9946FC16E0C03500924C4F /* CustomAlertView.h in Headers */,
+				EC99470116E0C06200924C4F /* MBProgressHUD.h in Headers */,
+				EC99470D16E0C6E800924C4F /* CMReachability.h in Headers */,
+				EC99470F16E0C6E800924C4F /* Reachability.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		EC9946A716E0BE7100924C4F /* CommonHelpers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC9946B116E0BE7100924C4F /* Build configuration list for PBXNativeTarget "CommonHelpers" */;
+			buildPhases = (
+				EC9946A416E0BE7100924C4F /* Sources */,
+				EC9946A516E0BE7100924C4F /* Frameworks */,
+				EC9946A616E0BE7100924C4F /* CopyFiles */,
+				EC9946B416E0BEC000924C4F /* Headers */,
+				EC99470316E0C12D00924C4F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CommonHelpers;
+			productName = CommonHelpers;
+			productReference = EC9946A816E0BE7100924C4F /* libCommonHelpers.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC99467C16E0BDBE00924C4F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Brijesh 04";
+			};
+			buildConfigurationList = EC99467F16E0BDBE00924C4F /* Build configuration list for PBXProject "CommonHelpers" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EC99467B16E0BDBE00924C4F;
+			productRefGroup = EC99468516E0BDBE00924C4F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC9946A716E0BE7100924C4F /* CommonHelpers */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		EC99470316E0C12D00924C4F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#\n# c.f. StackOverflow question/answer here: http://stackoverflow.com/questions/3520977/build-fat-static-library-device-simulator-using-xcode-and-sdk-4\n#\n# Version 2.5\n#\n# Latest Change:\n# - The \"copy headers\" section now respects the build setting for the location of the public headers\n#\n# Purpose:\n#   Create a static library for iPhone from within XCode\n#   Because Apple staff DELIBERATELY broke Xcode to make this impossible from the GUI (Xcode 3.2.3 specifically states this in the Release notes!)\n#   ...no, I don't understand why they did this!\n#\n# Author: Adam Martin - http://twitter.com/redglassesapps\n# Based on: original script from Eonil (main changes: Eonil's script WILL NOT WORK in Xcode GUI - it WILL CRASH YOUR COMPUTER)\n#\n\nset -e\nset -o pipefail\n\n#################[ Tests: helps workaround any future bugs in Xcode ]########\n#\nDEBUG_THIS_SCRIPT=\"false\"\n\nif [ $DEBUG_THIS_SCRIPT = \"true\" ]\nthen\necho \"########### TESTS #############\"\necho \"Use the following variables when debugging this script; note that they may change on recursions\"\necho \"BUILD_DIR = $BUILD_DIR\"\necho \"BUILD_ROOT = $BUILD_ROOT\"\necho \"CONFIGURATION_BUILD_DIR = $CONFIGURATION_BUILD_DIR\"\necho \"BUILT_PRODUCTS_DIR = $BUILT_PRODUCTS_DIR\"\necho \"CONFIGURATION_TEMP_DIR = $CONFIGURATION_TEMP_DIR\"\necho \"TARGET_BUILD_DIR = $TARGET_BUILD_DIR\"\nfi\n\n#####################[ part 1 ]##################\n# First, work out the BASESDK version number (NB: Apple ought to report this, but they hide it)\n#    (incidental: searching for substrings in sh is a nightmare! Sob)\n\nSDK_VERSION=$(echo ${SDK_NAME} | grep -o '.\\{3\\}$')\n\n# Next, work out if we're in SIM or DEVICE\n\nif [ ${PLATFORM_NAME} = \"iphonesimulator\" ]\nthen\nOTHER_SDK_TO_BUILD=iphoneos${SDK_VERSION}\nelse\nOTHER_SDK_TO_BUILD=iphonesimulator${SDK_VERSION}\nfi\n\necho \"XCode has selected SDK: ${PLATFORM_NAME} with version: ${SDK_VERSION} (although back-targetting: ${IPHONEOS_DEPLOYMENT_TARGET})\"\necho \"...therefore, OTHER_SDK_TO_BUILD = ${OTHER_SDK_TO_BUILD}\"\n#\n#####################[ end of part 1 ]##################\n\n#####################[ part 2 ]##################\n#\n# IF this is the original invocation, invoke WHATEVER other builds are required\n#\n# Xcode is already building ONE target...\n#\n# ...but this is a LIBRARY, so Apple is wrong to set it to build just one.\n# ...we need to build ALL targets\n# ...we MUST NOT re-build the target that is ALREADY being built: Xcode WILL CRASH YOUR COMPUTER if you try this (infinite recursion!)\n#\n#\n# So: build ONLY the missing platforms/configurations.\n\nif [ \"true\" == ${ALREADYINVOKED:-false} ]\nthen\necho \"RECURSION: I am NOT the root invocation, so I'm NOT going to recurse\"\nelse\n# CRITICAL:\n# Prevent infinite recursion (Xcode sucks)\nexport ALREADYINVOKED=\"true\"\n\necho \"RECURSION: I am the root ... recursing all missing build targets NOW...\"\necho \"RECURSION: ...about to invoke: xcodebuild -configuration \\\"${CONFIGURATION}\\\" -project \\\"${PROJECT_NAME}.xcodeproj\\\" -target \\\"${TARGET_NAME}\\\" -sdk \\\"${OTHER_SDK_TO_BUILD}\\\" ${ACTION} RUN_CLANG_STATIC_ANALYZER=NO\" BUILD_DIR=\\\"${BUILD_DIR}\\\" BUILD_ROOT=\\\"${BUILD_ROOT}\\\" SYMROOT=\\\"${SYMROOT}\\\"\n\nxcodebuild -configuration \"${CONFIGURATION}\" -project \"${PROJECT_NAME}.xcodeproj\" -target \"${TARGET_NAME}\" -sdk \"${OTHER_SDK_TO_BUILD}\" ${ACTION} RUN_CLANG_STATIC_ANALYZER=NO BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" SYMROOT=\"${SYMROOT}\"\n\nACTION=\"build\"\n\n#Merge all platform binaries as a fat binary for each configurations.\n#$SRCROOT\n# Calculate where the (multiple) built files are coming from:\nCURRENTCONFIG_DEVICE_DIR=${SYMROOT}/${CONFIGURATION}-iphoneos\nCURRENTCONFIG_SIMULATOR_DIR=${SYMROOT}/${CONFIGURATION}-iphonesimulator\n\necho \"Taking device build from: ${CURRENTCONFIG_DEVICE_DIR}\"\necho \"Taking simulator build from: ${CURRENTCONFIG_SIMULATOR_DIR}\"\n\nCREATING_UNIVERSAL_DIR=${SYMROOT}/${CONFIGURATION}-universal\necho \"...I will output a universal build to: ${CREATING_UNIVERSAL_DIR}\"\n\n# ... remove the products of previous runs of this script\n#      NB: this directory is ONLY created by this script - it should be safe to delete!\n\nrm -rf \"${CREATING_UNIVERSAL_DIR}\"\nmkdir \"${CREATING_UNIVERSAL_DIR}\"\n\n#\necho \"lipo: for current configuration (${CONFIGURATION}) creating output file: ${CREATING_UNIVERSAL_DIR}/${EXECUTABLE_NAME}\"\nlipo -create -output \"${CREATING_UNIVERSAL_DIR}/${EXECUTABLE_NAME}\" \"${CURRENTCONFIG_DEVICE_DIR}/${EXECUTABLE_NAME}\" \"${CURRENTCONFIG_SIMULATOR_DIR}/${EXECUTABLE_NAME}\"\n\n#########\n#\n# Added: StackOverflow suggestion to also copy \"include\" files\n#    (untested, but should work OK)\n#\n#echo \"${CURRENTCONFIG_DEVICE_DIR}\" \"${SRCROOT}\"\n#cp -r \"${CURRENTCONFIG_DEVICE_DIR}\" \"${SRCROOT}\"\nrm -rf \"${SRCROOT}/${EXECUTABLE_NAME}\"\nmkdir \"${SRCROOT}/${EXECUTABLE_NAME}\"\ncp -r \"${CURRENTCONFIG_DEVICE_DIR}\" \"${SRCROOT}/${EXECUTABLE_NAME}\"\ncp -r \"${CREATING_UNIVERSAL_DIR}\" \"${SRCROOT}/${EXECUTABLE_NAME}\"\n\n\necho \"Fetching headers from ${PUBLIC_HEADERS_FOLDER_PATH}\"\nif [ -d \"${CURRENTCONFIG_DEVICE_DIR}${PUBLIC_HEADERS_FOLDER_PATH}\" ]\nthen\nmkdir -p \"${CREATING_UNIVERSAL_DIR}${PUBLIC_HEADERS_FOLDER_PATH}\"\n# * needs to be outside the double quotes?\ncp -r \"${CURRENTCONFIG_DEVICE_DIR}${PUBLIC_HEADERS_FOLDER_PATH}\"* \"${CREATING_UNIVERSAL_DIR}${PUBLIC_HEADERS_FOLDER_PATH}\" \"${SRCROOT}\"\nfi\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC9946A416E0BE7100924C4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC9946DD16E0BF1000924C4F /* NSDictionary+ST.m in Sources */,
+				EC9946DF16E0BF1000924C4F /* NSObject+Utility.m in Sources */,
+				EC9946E116E0BF1000924C4F /* NSString+Extends.m in Sources */,
+				EC9946E316E0BF1000924C4F /* NSURL+Extend.m in Sources */,
+				EC9946E516E0BF1000924C4F /* UIColor+Extends.m in Sources */,
+				EC9946E716E0BF1000924C4F /* UIImage+Tools.m in Sources */,
+				EC9946E916E0BF1000924C4F /* UIViewControllerExtensions.m in Sources */,
+				EC9946EB16E0BF1000924C4F /* UIViewExtensions.m in Sources */,
+				EC9946EF16E0BF1000924C4F /* AppUtility.m in Sources */,
+				EC9946F116E0BF1000924C4F /* BCAppShared.m in Sources */,
+				EC9946F316E0BF1000924C4F /* RMValidtor.m in Sources */,
+				EC9946F516E0BF1000924C4F /* BSKeyboardControls.m in Sources */,
+				EC9946F716E0BF1000924C4F /* CustomBounceView.m in Sources */,
+				EC9946FD16E0C03500924C4F /* CustomAlertView.m in Sources */,
+				EC99470216E0C06200924C4F /* MBProgressHUD.m in Sources */,
+				EC99470E16E0C6E800924C4F /* CMReachability.m in Sources */,
+				EC99471016E0C6E800924C4F /* Reachability.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EC99469016E0BDBE00924C4F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC99469116E0BDBE00924C4F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC99469F16E0BDBE00924C4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC9946A016E0BDBE00924C4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC9946B216E0BE7100924C4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = NO;
+				DSTROOT = /tmp/CommonHelpers.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CommonHelpers/CommonHelpers-Prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "-ObjC";
+				PRIVATE_HEADERS_FOLDER_PATH = "$(PRODUCT_NAME)Headers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(PRODUCT_NAME)Headers";
+				SKIP_INSTALL = YES;
+				STRIP_STYLE = "non-global";
+			};
+			name = Debug;
+		};
+		EC9946B316E0BE7100924C4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = NO;
+				DSTROOT = /tmp/CommonHelpers.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CommonHelpers/CommonHelpers-Prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "-ObjC";
+				PRIVATE_HEADERS_FOLDER_PATH = "$(PRODUCT_NAME)Headers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(PRODUCT_NAME)Headers";
+				SKIP_INSTALL = YES;
+				STRIP_STYLE = "non-global";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC99467F16E0BDBE00924C4F /* Build configuration list for PBXProject "CommonHelpers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC99469F16E0BDBE00924C4F /* Debug */,
+				EC9946A016E0BDBE00924C4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC9946B116E0BE7100924C4F /* Build configuration list for PBXNativeTarget "CommonHelpers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC9946B216E0BE7100924C4F /* Debug */,
+				EC9946B316E0BE7100924C4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC99467C16E0BDBE00924C4F /* Project object */;
+}
