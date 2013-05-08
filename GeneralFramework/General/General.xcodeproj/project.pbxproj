@@ -42,26 +42,9 @@
 		EC415ED316DC8D9500738A4F /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC415ED216DC8D9500738A4F /* MobileCoreServices.framework */; };
 		EC415ED716DC8DB100738A4F /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC415ED616DC8DB100738A4F /* ImageIO.framework */; };
 		EC415ED916DC8DBB00738A4F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC415ED816DC8DBB00738A4F /* QuartzCore.framework */; };
-		EC415EE016DC8E3400738A4F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC415EDD16DC8E3400738A4F /* Default-568h@2x.png */; };
-		EC415EE116DC8E3400738A4F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = EC415EDE16DC8E3400738A4F /* Default.png */; };
-		EC415EE216DC8E3400738A4F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC415EDF16DC8E3400738A4F /* Default@2x.png */; };
 		EC415EE716DC91D200738A4F /* CustomTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC415EE616DC91D200738A4F /* CustomTabBarController.m */; };
 		EC415EF916DC93AA00738A4F /* main-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = EC415EE916DC93AA00738A4F /* main-bg.png */; };
 		EC415EFA16DC93AA00738A4F /* main-bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC415EEA16DC93AA00738A4F /* main-bg@2x.png */; };
-		EC415EFB16DC93AA00738A4F /* tab1.png in Resources */ = {isa = PBXBuildFile; fileRef = EC415EEB16DC93AA00738A4F /* tab1.png */; };
-		EC415EFC16DC93AA00738A4F /* tab1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC415EEC16DC93AA00738A4F /* tab1@2x.png */; };
-		EC415EFD16DC93AA00738A4F /* tab2.png in Resources */ = {isa = PBXBuildFile; fileRef = EC415EED16DC93AA00738A4F /* tab2.png */; };
-		EC415EFE16DC93AA00738A4F /* tab2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC415EEE16DC93AA00738A4F /* tab2@2x.png */; };
-		EC415EFF16DC93AA00738A4F /* tab3.png in Resources */ = {isa = PBXBuildFile; fileRef = EC415EEF16DC93AA00738A4F /* tab3.png */; };
-		EC415F0016DC93AA00738A4F /* tab3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC415EF016DC93AA00738A4F /* tab3@2x.png */; };
-		EC415F0116DC93AA00738A4F /* tab4.png in Resources */ = {isa = PBXBuildFile; fileRef = EC415EF116DC93AA00738A4F /* tab4.png */; };
-		EC415F0216DC93AA00738A4F /* tab4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC415EF216DC93AA00738A4F /* tab4@2x.png */; };
-		EC415F0316DC93AA00738A4F /* tab5-1.png in Resources */ = {isa = PBXBuildFile; fileRef = EC415EF316DC93AA00738A4F /* tab5-1.png */; };
-		EC415F0416DC93AA00738A4F /* tab5-1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC415EF416DC93AA00738A4F /* tab5-1@2x.png */; };
-		EC415F0516DC93AA00738A4F /* tab5-2.png in Resources */ = {isa = PBXBuildFile; fileRef = EC415EF516DC93AA00738A4F /* tab5-2.png */; };
-		EC415F0616DC93AA00738A4F /* tab5-2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC415EF616DC93AA00738A4F /* tab5-2@2x.png */; };
-		EC415F0716DC93AA00738A4F /* tab5.png in Resources */ = {isa = PBXBuildFile; fileRef = EC415EF716DC93AA00738A4F /* tab5.png */; };
-		EC415F0816DC93AA00738A4F /* tab5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC415EF816DC93AA00738A4F /* tab5@2x.png */; };
 		EC99425716E0879C00924C4F /* libSDWebImages.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC99424A16E0879C00924C4F /* libSDWebImages.a */; };
 		EC99426116E087DF00924C4F /* libOHAttributedLabel.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC99425A16E087DF00924C4F /* libOHAttributedLabel.a */; };
 		EC99475516E0CD4C00924C4F /* libCommonHelpers.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC99474916E0CD4C00924C4F /* libCommonHelpers.a */; };
@@ -141,27 +124,10 @@
 		EC415ED416DC8DA200738A4F /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
 		EC415ED616DC8DB100738A4F /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
 		EC415ED816DC8DBB00738A4F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		EC415EDD16DC8E3400738A4F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		EC415EDE16DC8E3400738A4F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		EC415EDF16DC8E3400738A4F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		EC415EE516DC91D200738A4F /* CustomTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTabBarController.h; sourceTree = "<group>"; };
 		EC415EE616DC91D200738A4F /* CustomTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTabBarController.m; sourceTree = "<group>"; };
 		EC415EE916DC93AA00738A4F /* main-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "main-bg.png"; sourceTree = "<group>"; };
 		EC415EEA16DC93AA00738A4F /* main-bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "main-bg@2x.png"; sourceTree = "<group>"; };
-		EC415EEB16DC93AA00738A4F /* tab1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab1.png; sourceTree = "<group>"; };
-		EC415EEC16DC93AA00738A4F /* tab1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab1@2x.png"; sourceTree = "<group>"; };
-		EC415EED16DC93AA00738A4F /* tab2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab2.png; sourceTree = "<group>"; };
-		EC415EEE16DC93AA00738A4F /* tab2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab2@2x.png"; sourceTree = "<group>"; };
-		EC415EEF16DC93AA00738A4F /* tab3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab3.png; sourceTree = "<group>"; };
-		EC415EF016DC93AA00738A4F /* tab3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab3@2x.png"; sourceTree = "<group>"; };
-		EC415EF116DC93AA00738A4F /* tab4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab4.png; sourceTree = "<group>"; };
-		EC415EF216DC93AA00738A4F /* tab4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab4@2x.png"; sourceTree = "<group>"; };
-		EC415EF316DC93AA00738A4F /* tab5-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab5-1.png"; sourceTree = "<group>"; };
-		EC415EF416DC93AA00738A4F /* tab5-1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab5-1@2x.png"; sourceTree = "<group>"; };
-		EC415EF516DC93AA00738A4F /* tab5-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab5-2.png"; sourceTree = "<group>"; };
-		EC415EF616DC93AA00738A4F /* tab5-2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab5-2@2x.png"; sourceTree = "<group>"; };
-		EC415EF716DC93AA00738A4F /* tab5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab5.png; sourceTree = "<group>"; };
-		EC415EF816DC93AA00738A4F /* tab5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab5@2x.png"; sourceTree = "<group>"; };
 		EC99424A16E0879C00924C4F /* libSDWebImages.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSDWebImages.a; sourceTree = "<group>"; };
 		EC99424B16E0879C00924C4F /* SDImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDImageCache.h; sourceTree = "<group>"; };
 		EC99424C16E0879C00924C4F /* SDImageCacheDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDImageCacheDelegate.h; sourceTree = "<group>"; };
@@ -579,9 +545,6 @@
 		EC415EDC16DC8E3400738A4F /* Splash */ = {
 			isa = PBXGroup;
 			children = (
-				EC415EDD16DC8E3400738A4F /* Default-568h@2x.png */,
-				EC415EDE16DC8E3400738A4F /* Default.png */,
-				EC415EDF16DC8E3400738A4F /* Default@2x.png */,
 			);
 			path = Splash;
 			sourceTree = "<group>";
@@ -608,20 +571,6 @@
 			children = (
 				EC415EE916DC93AA00738A4F /* main-bg.png */,
 				EC415EEA16DC93AA00738A4F /* main-bg@2x.png */,
-				EC415EEB16DC93AA00738A4F /* tab1.png */,
-				EC415EEC16DC93AA00738A4F /* tab1@2x.png */,
-				EC415EED16DC93AA00738A4F /* tab2.png */,
-				EC415EEE16DC93AA00738A4F /* tab2@2x.png */,
-				EC415EEF16DC93AA00738A4F /* tab3.png */,
-				EC415EF016DC93AA00738A4F /* tab3@2x.png */,
-				EC415EF116DC93AA00738A4F /* tab4.png */,
-				EC415EF216DC93AA00738A4F /* tab4@2x.png */,
-				EC415EF316DC93AA00738A4F /* tab5-1.png */,
-				EC415EF416DC93AA00738A4F /* tab5-1@2x.png */,
-				EC415EF516DC93AA00738A4F /* tab5-2.png */,
-				EC415EF616DC93AA00738A4F /* tab5-2@2x.png */,
-				EC415EF716DC93AA00738A4F /* tab5.png */,
-				EC415EF816DC93AA00738A4F /* tab5@2x.png */,
 			);
 			path = Tabbar;
 			sourceTree = "<group>";
@@ -794,25 +743,8 @@
 				EC415EAA16DC8AFF00738A4F /* OneViewController.xib in Resources */,
 				EC415EAF16DC8B1000738A4F /* ThreeViewController.xib in Resources */,
 				EC415EB416DC8B1E00738A4F /* TwoViewController.xib in Resources */,
-				EC415EE016DC8E3400738A4F /* Default-568h@2x.png in Resources */,
-				EC415EE116DC8E3400738A4F /* Default.png in Resources */,
-				EC415EE216DC8E3400738A4F /* Default@2x.png in Resources */,
 				EC415EF916DC93AA00738A4F /* main-bg.png in Resources */,
 				EC415EFA16DC93AA00738A4F /* main-bg@2x.png in Resources */,
-				EC415EFB16DC93AA00738A4F /* tab1.png in Resources */,
-				EC415EFC16DC93AA00738A4F /* tab1@2x.png in Resources */,
-				EC415EFD16DC93AA00738A4F /* tab2.png in Resources */,
-				EC415EFE16DC93AA00738A4F /* tab2@2x.png in Resources */,
-				EC415EFF16DC93AA00738A4F /* tab3.png in Resources */,
-				EC415F0016DC93AA00738A4F /* tab3@2x.png in Resources */,
-				EC415F0116DC93AA00738A4F /* tab4.png in Resources */,
-				EC415F0216DC93AA00738A4F /* tab4@2x.png in Resources */,
-				EC415F0316DC93AA00738A4F /* tab5-1.png in Resources */,
-				EC415F0416DC93AA00738A4F /* tab5-1@2x.png in Resources */,
-				EC415F0516DC93AA00738A4F /* tab5-2.png in Resources */,
-				EC415F0616DC93AA00738A4F /* tab5-2@2x.png in Resources */,
-				EC415F0716DC93AA00738A4F /* tab5.png in Resources */,
-				EC415F0816DC93AA00738A4F /* tab5@2x.png in Resources */,
 				ECCEE99916DCA9B100C60503 /* ForgotPassword.xib in Resources */,
 				ECCEE99B16DCA9B100C60503 /* FirstResetPassword.xib in Resources */,
 				ECCEE9A016DCA9BC00C60503 /* Login.xib in Resources */,
