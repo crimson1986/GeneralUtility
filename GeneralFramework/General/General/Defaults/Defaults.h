@@ -48,7 +48,7 @@ typedef enum {
     RMButtonTypeLike
     
 }RMButtonType;
-#define kClientID  @"462275706571.apps.googleusercontent.com"
+#define kClientID  @""
 #define kPagging 10
 #define kNavigationBarHeight 44
 #define kTableRowHeight 44
@@ -57,33 +57,11 @@ typedef enum {
 #define FONT_STYLE_BOLD @"OpenSans-Bold"
 
 //for photo url
-#define PhotoURL @"http://projects.spinxweb.net/BookTraderServices/CoverImages/"
+#define PhotoURL @""
 #define CHARACTERS @" ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
 #define CHARACTERS_NUMBERS  [CHARACTERS stringByAppendingString:@"1234567890"]
 #define NUMBERS @"0123456789"
 
 #define ProductdesColor [UIColor colorWithRed:52.0/255.0 green:52.0/255.0 blue:52.0/255.0 alpha:1.0]
 
-
-//screens name
-#define kDashboard  @"Dashboard"
-#define kProducts   @"Products"
-#define kMarket     @"Market"
-#define kSpecials   @"Specials"
-#define kNews       @"News"
-#define kNewsLetters @"News Letters"
-#define kContactUs  @"Contact Us"
-#define kProductDetails @"Product Details"
-#define kSplash     @"Splash"
-
-//Events
-#define kMore   @"More"
-#define kFindProduct @"Find Product Open"
-#define kFindProductClosed @"Find Product Closed"
-#define kSearch @"Search"
-//#define kMarketClicked
-#define kEmailClicked   @"Email send"
-#define kSubmit @"Submit"
-#define kVideoPlay  @"Video play"
-#define kCall @"Call"
 
