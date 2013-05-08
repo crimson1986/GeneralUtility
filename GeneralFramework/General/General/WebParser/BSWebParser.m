@@ -1,10 +1,3 @@
-//
-//  BSWebParser.m
-//  Beachory
-//
-//  Created by Brijesh 04 on 10/12/12.
-//  Copyright (c) 2012 mycompany. All rights reserved.
-//
 
 #import "BSWebParser.h"
 

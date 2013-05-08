@@ -1,10 +1,4 @@
-//
-//  BSMessages.h
-//  Beachory
-//
-//  Created by Brijesh 04 on 07/01/13.
-//  Copyright (c) 2013 mycompany. All rights reserved.
-//
+
 
 #import <Foundation/Foundation.h>
 

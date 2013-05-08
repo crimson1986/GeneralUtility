@@ -1,10 +1,3 @@
-//
-//  BTHeader.h
-//  BookTrader
-//
-//  Created by Brijesh 04 on 08/01/13.
-//  Copyright (c) 2013 Brijesh 04. All rights reserved.
-//
 
 #import <UIKit/UIKit.h>
 

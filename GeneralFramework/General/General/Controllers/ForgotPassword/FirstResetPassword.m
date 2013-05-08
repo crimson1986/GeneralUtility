@@ -1,10 +1,3 @@
-//
-//  FirstResetPassword.m
-//  Beachory
-//
-//  Created by Brijesh 01 on 1/25/13.
-//  Copyright (c) 2013 mycompany. All rights reserved.
-//
 
 #import "FirstResetPassword.h"
 #import "Login.h"

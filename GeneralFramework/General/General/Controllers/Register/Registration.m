@@ -1,10 +1,4 @@
-//
-//  RMRegistration.m
-//  RegistrationModule
-//
-//  Created by Brijesh 04 on 27/11/12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
-//
+
 
 #import "Registration.h"
 #import "TermsCondition.h"
