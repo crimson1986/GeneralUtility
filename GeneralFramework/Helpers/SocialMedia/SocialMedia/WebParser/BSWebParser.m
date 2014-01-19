@@ -10,7 +10,7 @@
 
 
 /* Add base url here for the application */
-NSString *kAppBaseUrl = @"http://projects.spinxweb.net/BookTraderServices/BookTrader.svc/";
+NSString *kAppBaseUrl = @"";
 
 @implementation BSWebParser
 
