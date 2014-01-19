@@ -70,7 +70,7 @@ typedef enum {
 #define FONT_STYLE_BOLD @"OpenSans-Bold"
 
 //for photo url
-#define PhotoURL @"http://projects.spinxweb.net/BookTraderServices/CoverImages/"
+#define PhotoURL @""
 #define CHARACTERS @" ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
 #define CHARACTERS_NUMBERS  [CHARACTERS stringByAppendingString:@"1234567890"]
 #define NUMBERS @"0123456789"

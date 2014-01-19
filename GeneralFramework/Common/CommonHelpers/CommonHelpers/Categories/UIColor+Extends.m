@@ -2,8 +2,8 @@
 //  UIColor+Extends.m
 //  BookTrader
 //
-//  Created by Brijesh 04 on 10/01/13.
-//  Copyright (c) 2013 Brijesh 04. All rights reserved.
+//  Created by chirag 04 on 10/01/13.
+//  Copyright (c) 2013 chirag 04. All rights reserved.
 //
 
 #import "UIColor+Extends.h"
