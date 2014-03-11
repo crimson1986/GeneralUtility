@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A4752A018CF6C08008255AE /* DatabaseHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A47529E18CF6C08008255AE /* DatabaseHelper.h */; };
+		1A4752A118CF6C08008255AE /* DatabaseHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A47529F18CF6C08008255AE /* DatabaseHelper.m */; };
 		ECCA7B6116DDFD3000B90E69 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECCA7B6016DDFD3000B90E69 /* Foundation.framework */; };
 		ECCA7B6F16DDFD4D00B90E69 /* Helpers.h in Headers */ = {isa = PBXBuildFile; fileRef = ECCA7B6516DDFD3000B90E69 /* Helpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ECCA7BC916DDFE1D00B90E69 /* NSDictionary+ST.h in Headers */ = {isa = PBXBuildFile; fileRef = ECCA7B7116DDFE1D00B90E69 /* NSDictionary+ST.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -102,6 +104,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1A47529E18CF6C08008255AE /* DatabaseHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatabaseHelper.h; sourceTree = "<group>"; };
+		1A47529F18CF6C08008255AE /* DatabaseHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatabaseHelper.m; sourceTree = "<group>"; };
 		ECCA7B5D16DDFD3000B90E69 /* libHelpers.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libHelpers.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECCA7B6016DDFD3000B90E69 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		ECCA7B6416DDFD3000B90E69 /* Helpers-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Helpers-Prefix.pch"; sourceTree = "<group>"; };
@@ -395,6 +399,8 @@
 				ECCA7BC016DDFE1D00B90E69 /* BCAppShared.m */,
 				ECCA7BC116DDFE1D00B90E69 /* RMValidtor.h */,
 				ECCA7BC216DDFE1D00B90E69 /* RMValidtor.m */,
+				1A47529E18CF6C08008255AE /* DatabaseHelper.h */,
+				1A47529F18CF6C08008255AE /* DatabaseHelper.m */,
 			);
 			path = HelperClasses;
 			sourceTree = "<group>";
@@ -427,6 +433,7 @@
 				ECCA7B6F16DDFD4D00B90E69 /* Helpers.h in Headers */,
 				ECCA7BC916DDFE1D00B90E69 /* NSDictionary+ST.h in Headers */,
 				ECCA7BCB16DDFE1D00B90E69 /* NSObject+Utility.h in Headers */,
+				1A4752A018CF6C08008255AE /* DatabaseHelper.h in Headers */,
 				ECCA7BCD16DDFE1D00B90E69 /* NSString+Extends.h in Headers */,
 				ECCA7BCF16DDFE1D00B90E69 /* NSURL+Extend.h in Headers */,
 				ECCA7BD116DDFE1D00B90E69 /* UIColor+Extends.h in Headers */,
@@ -564,6 +571,7 @@
 				ECCA7BF616DDFE1D00B90E69 /* MBProgressHUD.m in Sources */,
 				ECCA7BF816DDFE1D00B90E69 /* Reachability.m in Sources */,
 				ECCA7BFA16DDFE1D00B90E69 /* SDImageCache.m in Sources */,
+				1A4752A118CF6C08008255AE /* DatabaseHelper.m in Sources */,
 				ECCA7BFE16DDFE1D00B90E69 /* SDWebImageDecoder.m in Sources */,
 				ECCA7C0016DDFE1D00B90E69 /* SDWebImageDownloader.m in Sources */,
 				ECCA7C0316DDFE1D00B90E69 /* SDWebImageManager.m in Sources */,
@@ -687,6 +695,7 @@
 				ECCA7B6D16DDFD3000B90E69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
